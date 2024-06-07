@@ -1,6 +1,17 @@
-Aplicativo desenvolvido ocm o Android Studio
-Disciplina: Desenvolvimento Mobile
-IBMEC - Prof. Thiago Souza
+# Aplicativo "Qual o destino da sua viagem?"
+
+## Disciplina
+
+Desenvolvimento Mobile
+
+## IBME
+Prof. Thiago Souza
+
+## Desenvolvedor
 J. Felippe Magarão
 
+## IDE utilizada
+Android Studo
+
+## Aplicativo Android
 ***Qual o destino da sua viagem?***

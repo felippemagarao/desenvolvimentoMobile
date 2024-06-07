@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resposta3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/balada" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Baladas e festas no Brasil\n\nPara quem busca diversão noturna, o Brasil oferece alguns dos melhores destinos com baladas e festas inesquecíveis:\n\n\nRio de Janeiro\n\nAproveite a noite carioca nos bares e clubes de Lapa, onde a música ao vivo e a atmosfera animada são garantidas. Para uma experiência única, visite a Fosfobox, um clube subterrâneo com DJs de renome." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/lapa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nSão Paulo\n\nA cidade que nunca dorme é famosa por sua vida noturna vibrante. Visite a Rua Augusta, conhecida por seus bares e clubes diversos, e o badalado D-Edge, uma das melhores casas noturnas de música eletrônica do mundo.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baladasp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nBelo Horizonte\n\nA capital mineira tem uma vida noturna intensa. A Savassi é um dos bairros mais movimentados, com uma variedade de bares e clubes. Não perca a NaSala, uma das baladas mais populares da cidade.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baladabh" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nFlorianópolis\n\nConhecida como a “Ilha da Magia”, Florianópolis tem algumas das melhores festas de praia. O P12 Parador Internacional é um beach club icônico em Jurerê Internacional, oferecendo festas ao longo do dia e da noite.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baladafloripa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nBalneário Camboriú\n\nEste destino no sul do Brasil é famoso por suas festas luxuosas. O Green Valley é um dos melhores clubes de música eletrônica do mundo, atraindo DJs internacionais e uma multidão animada.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baladabalneario" />
+
+            <Button
+                android:id="@+id/botaoRecomecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Começar Novamente"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <Button
+                android:id="@+id/botaoTerminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Finalizar"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by Magarão"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.942"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.969" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

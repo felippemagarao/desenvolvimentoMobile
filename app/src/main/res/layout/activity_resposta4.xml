@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resposta4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/montanha" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Trilhas e passeios ao ar livre no Brasil\n\nPara os amantes da natureza e aventura, o Brasil oferece alguns dos melhores destinos para trilhas e passeios ao ar livre:\n\n\nChapada Diamantina (Bahia)\n\nA Chapada Diamantina é um paraíso para trilheiros. Explore a trilha do Vale do Pati, considerada uma das mais belas do Brasil, e maravilhe-se com cachoeiras e paisagens deslumbrantes." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/trilhachapada" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nParaty (Rio de Janeiro)\n\nParaty oferece a Trilha do Ouro, que passa por antigas rotas coloniais em meio à Mata Atlântica. Aproveite para visitar cachoeiras e praias escondidas ao longo do caminho.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/trilhaparaty" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nChapada dos Veadeiros (Goiás)\n\nChapada dos Veadeiros é famosa por suas trilhas espetaculares. A Trilha dos Saltos leva a cachoeiras impressionantes e piscinas naturais cristalinas.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/trilhachapada" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nSerra da Mantiqueira (São Paulo/Rio de Janeiro/Minas Gerais)\n\nA Serra da Mantiqueira é ideal para caminhadas e trilhas. O Pico do Itatiaia é um dos pontos mais altos do Brasil e oferece vistas panorâmicas incríveis.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/trilhaserramantiqueira" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nLençóis Maranhenses (Maranhão)\n\nOs Lençóis Maranhenses são únicos com suas dunas e lagoas sazonais. Faça a Travessia dos Lençóis e admire a beleza surreal desse deserto tropical.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/trilhalencoismaranhenses" />
+
+            <Button
+                android:id="@+id/botaoRecomecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Começar Novamente"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <Button
+                android:id="@+id/botaoTerminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Finalizar"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by Magarão"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.942"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.969" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

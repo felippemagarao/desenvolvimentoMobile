@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resposta1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ipanema" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Paraísos Litorâneos no Brasil\n\nO Brasil é abençoado com uma vasta costa repleta de praias paradisíacas que atendem a todos os gostos. Com base nas suas respostas, aqui estão algumas sugestões de destinos e lugares imperdíveis para visitar em suas próximas férias:\n\n\nRio de Janeiro\n\nPraia de Copacabana: é o lugar perfeito para quem gosta de uma atmosfera vibrante e agitada. Aproveite para caminhar pelo calçadão, tomar um banho de mar e conhecer o Forte de Copacabana, onde você pode desfrutar de uma vista espetacular da praia.\n\nIpanema: Outra praia icônica do Rio, Ipanema é famosa por sua beleza e pelo Pôr do Sol no Arpoador. Não deixe de visitar o bairro, com suas lojas charmosas e excelentes restaurantes.\n"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/florianopolis" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="\nFlorianópolis\n\nPraia da Joaquina: Ideal para os amantes do surf, Joaquina é conhecida por suas ondas incríveis. Além disso, a praia oferece belas dunas onde é possível praticar sandboard.\n\nPraia dos Ingleses: Localizada no norte da ilha, essa praia é perfeita para famílias e oferece uma excelente infraestrutura com bares e restaurantes à beira-mar.\n"
+                android:fontFamily="casual"
+                android:gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bahia" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="\nBahia\n\nPorto Seguro: Com suas praias de águas calmas e mornas, Porto Seguro é um destino ideal para quem busca relaxamento e diversão. Visite a Passarela do Descobrimento, com suas casas coloridas, restaurantes e lojas de artesanato.\n\nPraia do Espelho: Considerada uma das praias mais bonitas do Brasil, a Praia do Espelho encanta com suas falésias, piscinas naturais e águas cristalinas. É o lugar perfeito para quem busca tranquilidade e paisagens deslumbrantes.\n"
+                android:fontFamily="casual"
+                android:gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ceara" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="\nCeará\n\nJericoacoara: Jeri, como é carinhosamente chamada, é um verdadeiro paraíso. Com suas dunas, lagoas de água doce e mar azul-turquesa, é o destino ideal para quem busca contato com a natureza e um ambiente rústico. Não perca o pôr do sol na Duna do Pôr do Sol e a Pedra Furada, um dos cartões-postais de Jeri.\n\nCanoa Quebrada: Famosa por suas falésias coloridas e pela vida noturna animada, Canoa Quebrada é um destino que mistura beleza natural e diversão. Aproveite para fazer um passeio de buggy e conhecer as praias desertas da região.\n"
+                android:fontFamily="casual"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/botaoRecomecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Começar Novamente"
+                android:fontFamily="casual"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/botaoTerminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Finalizar"
+                android:fontFamily="casual"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by Magarão"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.942"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.969" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

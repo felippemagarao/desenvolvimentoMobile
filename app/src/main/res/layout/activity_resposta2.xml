@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resposta2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/museu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Museus e teatros no Brasil\n\nExplore a rica cultura brasileira através de museus e teatros em destinos fascinantes:\n\n\nRio de Janeiro\n\nO Museu do Amanhã é uma experiência futurista e interativa, explorando temas de ciência e sustentabilidade. Assista a um espetáculo no Theatro Municipal do Rio de Janeiro, um dos mais importantes e belos teatros do país." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/museudoamanha" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nSão Paulo\n\nVisite o MASP (Museu de Arte de São Paulo), famoso por seu acervo impressionante e arquitetura icônica. Não perca uma peça no histórico Theatro Municipal de São Paulo, que oferece espetáculos de ópera, balé e concertos.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/masp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nBelo Horizonte\n\nO Museu de Arte da Pampulha é um destaque, localizado em um belo edifício projetado por Oscar Niemeyer. A cidade também oferece o Palácio das Artes, um complexo cultural com teatro, cinema e galerias de arte.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/museucuritiba" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nCuritiba\n\nO Museu Oscar Niemeyer, também conhecido como Museu do Olho, é imperdível por suas exposições de arte contemporânea. O Teatro Guaíra é um dos maiores do Brasil e oferece uma programação diversificada de espetáculos.\n" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/museubahia" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="\nSalvador\n\nExplore o Museu de Arte da Bahia, com um acervo que abrange desde arte sacra até arte contemporânea. O Teatro Castro Alves é o principal palco da cidade, oferecendo uma variedade de espetáculos musicais e teatrais." />
+
+            <Button
+                android:id="@+id/botaoRecomecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Começar Novamente"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <Button
+                android:id="@+id/botaoTerminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Finalizar"
+                android:fontFamily="casual"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by Magarão"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.942"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.969" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
